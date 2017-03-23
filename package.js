@@ -8,8 +8,8 @@ Package.onUse( function(api) {
   api.versionsFrom("METEOR@1.0");
 
   api.use([
-    'nova:core@1.2.0',
-    'nova:users@1.2.0',
+    'vulcan:core@1.2.0',
+    'vulcan:users@1.2.0',
   ]);
 
   api.mainModule('client.js', ['client']);
