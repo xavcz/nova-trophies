@@ -1,6 +1,6 @@
 Package.describe({
-  name: "xavcz:nova-trophies",
-  version: "1.2.0",
+  name: "xavcz:vulcan-trophies",
+  version: "1.3.0",
 });
 
 Package.onUse( function(api) {
@@ -8,8 +8,8 @@ Package.onUse( function(api) {
   api.versionsFrom("METEOR@1.0");
 
   api.use([
-    'nova:core@1.2.0',
-    'nova:users@1.2.0',
+    'vulcan:core@1.3.0',
+    'vulcan:users@1.3.0',
   ]);
 
   api.mainModule('client.js', ['client']);
